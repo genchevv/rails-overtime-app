@@ -259,6 +259,7 @@ DEPENDENCIES
   gritter (= 1.2.0)
   jbuilder (~> 2.0)
   jquery-rails
+  kaminari (~> 1.0, >= 1.0.1)
   puma (~> 3.4)
   pundit (~> 1.1)
   rails (= 4.2.5)
