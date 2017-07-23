@@ -26,7 +26,6 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
-  gem 'rails_12factor'
 end
 
 gem 'devise', '~> 4.3'
@@ -39,3 +38,4 @@ gem 'puma', '~> 3.4'
 gem 'twilio-ruby', '~> 5.0'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'rails_12factor'
