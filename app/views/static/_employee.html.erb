@@ -1,15 +1,19 @@
 <div class="container-fluid">
-    <div class="row jumbotron">
-        <div class="card col-md-6 column">
-            <div class="card-block">
-                <p>dadadssa</p>
+    <div class="row">
+        <div class="jumbotron">
+            <div class="card">
+                <h3>Pending Your Confirmation</h3>
+                
+                <%= render partial: 'pending_audit_confirmations', locals: { pending_audit_confirmations: @pending_audit_confirmations  } %>
             </div>
         </div>
         
-        <div class="card col-md-6 column">
-            <div class="card-block">
-                <p>dadadssa</p>
+        <hr>
+        
+        <div class="jumbotron">
+            <div class="card">
             </div>
         </div>
+        
     </div>
 </div>
