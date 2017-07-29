@@ -39,3 +39,4 @@ gem 'twilio-ruby', '~> 5.0'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'rails_12factor'
+gem 'newrelic_rpm'
